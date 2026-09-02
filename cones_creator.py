@@ -1,0 +1,19 @@
+import csv
+
+data = [
+    ["id", "x", "y", "colour"],
+    [1, 1.0, 2.0, "blue"],
+    [2, 0.5, 0.5, "yellow"],
+    [3, 3.0, 4.0, "blue"],
+    [4, 2.0, 1.0, "yellow"],
+    [5, 0.2, 0.1, "blue"],
+    [6, 1.5, 1.5, "yellow"],
+    [7, 4.0, 3.0, "blue"],
+    [8, 0.8, 1.2, "yellow"]
+]
+
+with open("cones.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerows(data)
+
+print("cones.csv created successfully.")
