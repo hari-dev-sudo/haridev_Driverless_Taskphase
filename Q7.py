@@ -1,3 +1,4 @@
+#Q7
 '''
 #Q7
  Let (x,y) be a point in 2D space. Given a list of coordinates, write a sort
@@ -15,3 +16,4 @@ def sort_coords():
     L=eval(input("Enter list of coordinates to be sorted : "))
     L=sorted(L,key = lambda R: ((R[0]-x)**2+(R[1]-y)**2)**0.5)
     return L 
+print(sort_coords)

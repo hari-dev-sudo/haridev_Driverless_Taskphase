@@ -1,6 +1,7 @@
 #Q3
-'''Q3
- Create a class with a function that does binary search in a list of strings.
+'''
+Q3
+Create a class with a function that does binary search in a list of strings.
 Input a list like Q1, sort it using your Q2 function, input a string, search for it.
 '''
 class sorter:

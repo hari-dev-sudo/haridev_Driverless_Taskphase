@@ -1,4 +1,4 @@
-
+#Q8
 import csv
 
 '''
@@ -11,8 +11,6 @@ blue cone and its nearest yellow cone and write those midpoints to
 centreline.csv .
 Q8 is a stripped down version of what path planning actually does on the
 car. Understand it, do not just match the output.'''
-
-
 
 
 #Q8 Part 1
