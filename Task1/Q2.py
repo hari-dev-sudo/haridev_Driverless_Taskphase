@@ -21,8 +21,11 @@ class sorter:
              self.li[i],self.li[small]=self.li[small],self.li[i]
         
         return self.li
+<<<<<<< HEAD:Q2.py
 
 L=eval(input("Enter a list of strings : "))
 sorted_list=sorter(L)
 L1=sorted_list.selection_sort()
 print(L1)
+=======
+>>>>>>> 5c3b4797a933c073c38d03120f9d6bda16cc1580:Task1/Q2.py
